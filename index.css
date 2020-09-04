@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -66,6 +68,26 @@ p {
     line-height: 1.4;
 }
 
+nav {
+    display: flex;
+    justify-content:space-evenly;
+    margin: 2% 0;
+    
+}
+
+nav a{
+    color:black;
+    text-decoration: none;
+}
+
+.jumbo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -75,6 +97,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 2%;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -86,31 +109,85 @@ p {
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    display:inline-flex;
+    flex-wrap: wrap;
+    align-self: auto;
+    margin-bottom: 50px;
     border-bottom: 1px dashed black;
+    width: 100%;
+    
 }
+
+
 
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    display: flex;
+    flex-wrap:nowrap;
+    align-items: flex-start;
+    
 }
 
-.middle-content .boxes {
-    display: flex;
+.middle-content .boxes  {
+    display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    width: 100%;
+    
 }
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box:nth-child(1){
+    background:teal;
+}
+
+.box:nth-child(2){
+    background: gold;
+}
+
+.box:nth-child(3){
+    background: cadetblue;
+}
+
+.box:nth-child(4){
+    background: coral;
+}
+
+.box:nth-child(5){
+    background: crimson;
+}
+
+.box:nth-child(6){
+    background: forestgreen;
+}
+
+.box:nth-child(7){
+    background: darkorchid;
+}
+
+.box:nth-child(8){
+    background: hotpink;
+}
+
+.box:nth-child(9){
+    background: indigo;
+}
+
+.box:nth-child(10){
+    background: dodgerblue;
+}
+
+
 
 .bottom-content {
     display: flex;
