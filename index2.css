@@ -48,6 +48,7 @@ table {
 
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
@@ -89,7 +90,8 @@ nav a{
     width: 800px;
     margin: 0 auto;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .top-content-about {
@@ -101,13 +103,44 @@ nav a{
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container-about {
+.top-content-about .text-container-about {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
-.strategy1 {
-    display: block;
-    align-items:center;
+..bottom-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.bottom-content-about .container-about-page2 {
+    padding-right: 4%;
+}
+
+.bottom-content-about .container-about-page2:last-child {
+    padding-right: 0;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
