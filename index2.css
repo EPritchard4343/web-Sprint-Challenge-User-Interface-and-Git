@@ -94,6 +94,15 @@ nav a{
     align-content: center;
 }
 
+.container-about-page2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
 .top-content-about {
     display: flex;
     flex-wrap: wrap;
