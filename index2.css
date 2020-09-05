@@ -90,33 +90,93 @@ nav a{
 
 .top-content {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: column;
     margin-top: 2%;
-    margin-bottom: 20px;
-    margin-left: 150px;
+    margin-bottom: 0;
+    margin-left: 200px;
     border-bottom: 1px dashed black;
-    width: 70%;
+    width: 80%;
 }
+
 
 
 
 .middle  {
-    height: 80vh;
+    height:90vh;
     display: flex;
     justify-content:space-evenly;
     flex-wrap: wrap;
+    width: 70%;
+    margin-left: 200px;
+    margin-top: 50px;
+    
+    
+  
+    
 }
 
-.middle h2 p div{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    margin: 2%;
-    
- }
 
- .learnmorebutton {
-     border-bottom: 1px dashed black;
- }
+
+.middle div h2 p   {
+    display:inline-flex;
+    justify-content: space-around;
+    margin: 2%;
+    margin-right: auto;
+    
+    border-bottom: 1px dotted black;
+    
+}
+
+section div{
+    margin: 40px;
+    margin-bottom: 2px;
+    
+}
+
+.learnmorebutton a{
+    display: inline-flex;
+    align-items: flex-end;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: solid black;
+    text-align: bottom;
+}
+
+ .bottomparagraph {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 1%;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    margin-top: 2%;;
+    width: 70%;
+    
+}
+
+.bottomparagraph  {
+    padding-right: 4%;
+}
+
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+ 
