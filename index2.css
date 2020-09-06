@@ -49,13 +49,14 @@ table {
 *, *::after, *::before {
     margin: 0;
     padding: 10px;
-    box-sizing: border-box;
+    
     word-wrap: break-word;
  }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5 {
@@ -103,7 +104,7 @@ nav a{
 
 
 .middle  {
-    height:90vh;
+    
     display: flex;
     justify-content:space-evenly;
     flex-wrap: wrap;
@@ -128,20 +129,36 @@ nav a{
     
 }
 
-section div{
-    margin: 40px;
-    margin-bottom: 2px;
-    
+.imgs {
+    width: 90%;
 }
 
-.learnmorebutton a{
+
+section .container{
+width: 45%;
+margin-bottom: 10px;
+border-bottom: 1px dashed black;
+
+}
+
+
+
+.learnmorebutton a {
     display: inline-flex;
     align-items: flex-end;
     margin-top: 10%;
     margin-bottom: 10%;
     border: solid black;
     text-align: bottom;
+    text-decoration: none;
+    border-radius:10px;
+    padding: 3% 5%;
+    color: black;
+    
+    
 }
+
+
 
  .bottomparagraph {
     display: flex;
@@ -157,16 +174,18 @@ section div{
 
 .bottomparagraph  {
     padding-right: 4%;
+    margin-top: 1%;
 }
 
 
 footer {
-    width: 100%;
+    width: 70%;
+    margin-left: 15%;
     background: black;
 }
 
 footer nav {
-    width: 60%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
